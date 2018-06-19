@@ -23,7 +23,7 @@ const doc = connection.get('examples', 'textarea');
 doc.subscribe((err) => {
   if (err) throw err;
   const element = document.getElementById('YOUR_DIV_OR_WHATEVER');
-  const binding = new GenericStringBinding(element, doc);
+  const binding = new ShareGenericBinding(element, doc);
   binding.setup();
 });
 ```
