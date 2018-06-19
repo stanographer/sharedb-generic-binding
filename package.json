@@ -1,0 +1,45 @@
+{
+  "name": "sharedb-generic-binding",
+  "version": "0.1.0",
+  "description": "Base class for binding [sharedb](https://github.com/share/sharedb) text diff data operations sent to a generic HTML element. Implementation of curran's commit to enable StringBinding, binding.setup() on non-textarea HTML elements.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "mocha && npm run lint",
+    "test-cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanographer/sharedb-generic-binding.git"
+  },
+  "keywords": [
+    "sharedb",
+    "sharejs",
+    "stringbinding",
+    "text-diff-binding"
+  ],
+  "author": "Stanley Sakai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanographer/sharedb-generic-binding/issues"
+  },
+  "homepage": "https://github.com/stanographer/sharedb-generic-binding#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-xo": "^0.22.2",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sharedb": "^1.0.0-beta.9"
+  },
+  "dependencies": {
+    "lint": "^1.1.2"
+  }
+}
