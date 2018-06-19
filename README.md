@@ -1,6 +1,6 @@
 # sharedb-generic-binding
-Base class for binding [sharedb](https://github.com/share/sharedb) text diff data operations sent to a generic HTML element.
-Implementation of curran's commit to enable StringBinding, binding.setup() on non-textarea HTML elements.
+Base class for binding [sharedb](https://github.com/share/sharedb)'s [text diff](https://github.com/share/text-diff-binding) data operations sent to a generic HTML element.
+Implementation of [curran](https://github.com/share/text-diff-binding/pull/2)'s commit to enable StringBinding, binding.setup() on non-textarea HTML elements.
 
 ## Usage
 
